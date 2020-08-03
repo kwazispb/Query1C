@@ -9,3 +9,4 @@ call vrunner compile --src src/cf --out build/1cv8.cf %*
 
 @rem собрать расширения конфигурации внутри ИБ
 @rem call vrunner compileext src/cfe/МоеРасширение МоеРасширение %*
+call vrunner compileext src/cfe/ЗапросWEB СЗ_ПолучениеПроизвольныхДанных %*

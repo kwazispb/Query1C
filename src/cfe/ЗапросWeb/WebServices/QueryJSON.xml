@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<WebService uuid="a1b327f9-75c0-42a0-96cd-af3987bc2a09">
+	<WebService uuid="83426425-20df-46ec-8613-90a16700c0a2">
 		<Properties>
-			<Name>Query</Name>
+			<Name>QueryJSON</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Query</v8:content>
+					<v8:content>Query JSON</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -18,12 +18,12 @@
 					<xr:Value xsi:type="xr:MDObjectRef">3063746e-0d46-4325-a38b-653c127365cc</xr:Value>
 				</xr:Item>
 			</XDTOPackages>
-			<DescriptorFileName>Query.1cws</DescriptorFileName>
+			<DescriptorFileName>QueryJSON.1cws</DescriptorFileName>
 			<ReuseSessions>DontUse</ReuseSessions>
 			<SessionMaxAge>20</SessionMaxAge>
 		</Properties>
 		<ChildObjects>
-			<Operation uuid="85971980-e9df-421a-b22a-3112b2708391">
+			<Operation uuid="0fcba688-f662-40b6-ade7-db9c6a43bd10">
 				<Properties>
 					<Name>Execute</Name>
 					<Synonym>
@@ -40,7 +40,7 @@
 					<DataLockControlMode>Automatic</DataLockControlMode>
 				</Properties>
 				<ChildObjects>
-					<Parameter uuid="430b26af-a05a-464c-9f3d-03c35e4d4b8f">
+					<Parameter uuid="f1648a22-fbe4-47e1-803a-ad879932b718">
 						<Properties>
 							<Name>ВебЗапрос</Name>
 							<Synonym>
