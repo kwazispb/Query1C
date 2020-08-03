@@ -1,0 +1,39 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.1cnw.ru/query">
+	<objectType name="Ответ">
+		<property name="Ошибка" type="xs:string"/>
+		<property xmlns:d3p1="http://www.1cnw.ru/query" name="Колонки" type="d3p1:Колонка" lowerBound="0" upperBound="-1"/>
+		<property name="Результат" type="xs:string"/>
+	</objectType>
+	<objectType name="Колонка">
+		<property name="Имя" type="xs:string"/>
+		<property name="Булево" type="xs:boolean"/>
+		<property name="Дата" type="xs:boolean"/>
+		<property name="Строка" type="xs:boolean"/>
+		<property name="Ссылка" type="xs:boolean"/>
+		<property name="УникальныйИдентификатор" type="xs:boolean"/>
+		<property name="ХранилищеЗначения" type="xs:boolean"/>
+		<property name="Число" type="xs:boolean"/>
+	</objectType>
+	<objectType name="Запрос">
+		<property name="Текст" type="xs:string"/>
+		<property xmlns:d3p1="http://www.1cnw.ru/query" name="Параметры" type="d3p1:ПараметрЗапроса" lowerBound="0" upperBound="-1"/>
+		<property name="Упрощенный" type="xs:boolean"/>
+		<property xmlns:d3p1="http://www.1cnw.ru/query" name="ДополнительныеКолонки" type="d3p1:ДополнительнаяКолонка" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ПараметрЗапроса">
+		<property name="Имя" type="xs:string"/>
+		<property name="Значение" type="xs:anyType"/>
+	</objectType>
+	<objectType name="ОтветМетода">
+		<property name="Ошибка" type="xs:string"/>
+		<property name="Результат" type="xs:string"/>
+	</objectType>
+	<objectType name="Метод">
+		<property name="Текст" type="xs:string"/>
+		<property xmlns:d3p1="http://www.1cnw.ru/query" name="Параметры" type="d3p1:ПараметрЗапроса" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="ДополнительнаяКолонка">
+		<property name="Имя" type="xs:string"/>
+		<property name="Метод" type="xs:string"/>
+	</objectType>
+</package>

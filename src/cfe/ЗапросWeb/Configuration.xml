@@ -43,7 +43,7 @@
 			<ConfigurationExtensionCompatibilityMode>Version8_3_10</ConfigurationExtensionCompatibilityMode>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>1.03</Version>
+			<Version>1.04</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -53,7 +53,9 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<XDTOPackage>Query</XDTOPackage>
 			<WebService>Query</WebService>
+			<HTTPService>queryToJSON</HTTPService>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
